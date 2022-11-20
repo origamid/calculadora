@@ -1,0 +1,47 @@
+body {
+  margin: 2rem;
+  background: #000;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 800px;
+  min-height: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#calculadora,
+#resultado {
+  border: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 1.25rem;
+  background-color: #282a2d;
+  color: #e3e7e9;
+  font-size: 1.25rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* remove style textarea */
+#calculadora {
+  resize: none;
+}
+
+/* remove line focus textarea */
+#calculadora:focus {
+  outline: none;
+}
+
+#resultado {
+  color: #2e1;
+  display: grid;
+  text-align: right;
+}
+
+#total {
+  align-self: end;
+  margin-top: 1.25rem;
+}

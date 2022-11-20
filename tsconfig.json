@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}

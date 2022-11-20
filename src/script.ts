@@ -45,7 +45,7 @@ function calcular() {
   // add total to resultadoElemento
   resultadoElemento.innerHTML += `<div id="total">${total}</div>`;
 
-  // save total to clipboard com click
+  // save total to clipboard on click
   const totalElemento = document.getElementById('total') as HTMLElement;
   totalElemento.addEventListener('click', () => {
     navigator.clipboard.writeText(total.toString());
